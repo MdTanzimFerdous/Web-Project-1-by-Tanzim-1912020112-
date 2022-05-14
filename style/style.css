@@ -1,0 +1,92 @@
+.start {
+    display: flex;
+}
+
+.navbar1 {
+    background-color: rgb(39, 39, 54);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar { 
+    background-color: rgb(90, 101, 108);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.name {
+    color: white;
+    font-size: 30px;
+}
+
+.drop-down {
+    display: none;
+}
+
+.appbar > button:hover ul {
+    display: block;
+    position: absolute;
+    background-color: rgb(205, 210, 214);
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul :hover {
+    background-color: antiquewhite;
+}
+
+.btn1 {
+    width: 250px;
+    height: 120px;
+    font-size: 40px;
+    font-weight: bold;
+    border: 0ch;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.btn {
+    width: 110px;
+    height: 40px;
+    font-size: 20px;
+    border: 0ch;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.ltc {
+    background-color: rgb(236, 223, 223);
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+}
+
+.p1{
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: rgb(236, 223, 223);
+}
+
+.p1_1{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: rgb(236, 223, 223);
+}
+
+.footer{
+    text-align: center;
+    padding: 10px;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="style/style_reg.css">
+</head>
+
+<body class = 'body'>
+    <div class="reg_head">
+        Sign-In Form
+    </div>
+    <div class="reg_form">
+        <form action="" method="get" id="form">
+            <table>
+                <tr>
+                    <td>Email </td>
+                    <td><input id="3" type="email" required></td>
+                </tr>
+                <tr>
+                    <td>Password </td>
+                    <td><input id="4" type="password" minlength=6 required></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button class = "btn_submit" type="submit">Submit</button></td>
+                </tr>
+
+            </table>
+        </form>
+    </div>
+
+    <script>
+        const email = document.getElementById("3");
+        const pass = document.getElementById("4");
+        const form = document.getElementById("form");
+
+        form.addEventListener("submit", (e) => {
+            if (!/[0-9]/.test(pass.value)) {
+                alert("Must contain a digit");
+                e.preventDefault()
+            }
+        })
+
+    </script>
+</body>
+
+</html>
